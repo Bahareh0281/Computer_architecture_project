@@ -55,30 +55,28 @@ int RISCVProcessorWrapper::getOutFromDM() {
 
 int main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv);
-
-    // Instantiate the wrapper
     RISCVProcessorWrapper riscvProcessorWrapper;
-
-    // Reset the module
     riscvProcessorWrapper.reset();
-
-    // Run the simulation for 10 clock cycles
     riscvProcessorWrapper.step(10);
-
-    // Print the output signal
-
     int a = 2;
     int b = 3;
     int c = 4;
     int d = 5;
     int e = 6;
-
     printf("The value of a + b is %d\n", a + b);
     printf("The value of b * c is %d\n", b * c);
     printf("The value of c / a is %d\n", c / a);
     printf("The value of d - a is %d\n", d - a);
     printf("The value of e - a is %d\n", e - a);
-    
-
+    printf("The value of a + b is %d\n", a + b);
+    printf("The value of b * c is %d\n", b * c);
+    printf("The value of c / a is %d\n", c / a);
+    printf("The value of d - a is %d\n", d - a);
+    printf("The value of e - a is %d\n", e - a);
+    printf("The value of a + b is %d\n", a + b);
+    printf("The value of b * c is %d\n", b * c);
+    printf("The value of c / a is %d\n", c / a);
+    printf("The value of d - a is %d\n", d - a);
+    printf("The value of e - a is %d\n", e - a);
     return 0;
 }
