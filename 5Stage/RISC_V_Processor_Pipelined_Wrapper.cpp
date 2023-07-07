@@ -80,20 +80,17 @@ int main(int argc, char** argv) {
     printf("The value of c / a is %d\n", c / a);
     printf("The value of d - a is %d\n", d - a);
     printf("The value of e - a is %d\n", e - a);
+    printf("The value of a + b is %d\n", a + b);
+    printf("The value of b * c is %d\n", b * c);
+    printf("The value of c / a is %d\n", c / a);
+    printf("The value of d - a is %d\n", d - a);
+    printf("The value of e - a is %d\n", e - a);
    
     return 0;
 }
 
 
 
-
-
-
- // printf("The value of a + b is %d\n", a + b);
-    // printf("The value of b * c is %d\n", b * c);
-    // printf("The value of c / a is %d\n", c / a);
-    // printf("The value of d - a is %d\n", d - a);
-    // printf("The value of e - a is %d\n", e - a);
     // printf("The value of a + b is %d\n", a + b);
     // printf("The value of b * c is %d\n", b * c);
     // printf("The value of c / a is %d\n", c / a);
