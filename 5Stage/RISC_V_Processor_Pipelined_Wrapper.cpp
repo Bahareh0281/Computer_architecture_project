@@ -2,6 +2,7 @@
 #include "verilated.h"
 #include "VRISC_V_Processor_Pipelined.h"
 #include "VRISC_V_Processor_Pipelined___024unit.h"
+#include "VRISC_V_Processor_Pipelined___024root.h"
 
 class RISC_V_Processor_PipelinedModuleWrapper {
 public:
@@ -75,15 +76,6 @@ int main(int argc, char** argv) {
     int e = 6;
 
     printf("The value of a + b is %d\n", a + b);
-    printf("The value of b * c is %d\n", b * c);
-    printf("The value of c / a is %d\n", c / a);
-    printf("The value of d - a is %d\n", d - a);
-    printf("The value of e - a is %d\n", e - a);
-    printf("The value of d * e is %d\n", d * e);
-    printf("The value of c * b is %d\n", c * b);
-    printf("The value of d + c is %d\n", d + c);
-    printf("The value of a * a is %d\n", a * a);
-    printf("The value of d - c is %d\n", d - c);
 
     return 0;
 }
