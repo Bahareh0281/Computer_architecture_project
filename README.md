@@ -61,20 +61,6 @@ The Verilog code is compiled into C++ using Verilator, allowing simulation withi
 
 5. **Running Simulations:** The processors are simulated using the GEM5 tool, with configurations set in a Python script based on the GEM5 documentation.
 
-## Directory Structure
-
-- **SingleCycle Folder:**
-  - Contains the Verilog files for the SingleCycle processor.
-  - Key files: `Instruction_Memory.v`, `Data_Memory.v`, `Control_Unit.v`, `ALU_Control.v`, etc.
-  
-- **Pipelined Folder (Stage5):**
-  - Contains the Verilog files for the Pipelined processor.
-  - Key files: `EX_MEM.v`, `ID_EX.v`, `IF_ID.v`, `MEM_WB.v`, etc.
-  
-- **CppWrapper Files:**
-  - `RISC_V_processorWrapper.cpp`: Wrapper for SingleCycle processor.
-  - `RISC_V_Processor_Pipelined_Wrapper.cpp`: Wrapper for Pipelined processor.
-
 ## Running the Project
 
 1. **Compile Verilog to C++:**
