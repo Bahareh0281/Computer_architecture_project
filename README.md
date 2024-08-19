@@ -1,4 +1,4 @@
-# V-RISC Pipeline Processor Final Project
+# V-RISC Pipeline Processor (Computer Architecture Final Project)
 
 ## Overview
 This project involves the design and implementation of a V-RISC pipeline processor in a 5-stage pipeline using Verilog and the GEM5 simulation environment. The main objective is to compare the execution time of instruction sequences in both SingleCycle and Pipelined implementations of the processor.
